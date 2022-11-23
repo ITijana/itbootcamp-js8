@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: double;
+  border-color: rgb(241, 164, 21);
+}
+
+body {
+  background-color: rgb(227, 224, 224);
+}
+
+p:nth-child(odd) {
+  color: blueviolet;
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+p:nth-child(even) {
+  color: blue;
+}
+
+a{
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
